@@ -15,6 +15,6 @@ class Program
         float newY = y + dy;
         float newZ = z + dz;
 
-        Console.WriteLine(\$New position: ({newX}, {newY}, {newZ})");
+        Console.WriteLine($New position: ({newX}, {newY}, {newZ})");
     }
 }
