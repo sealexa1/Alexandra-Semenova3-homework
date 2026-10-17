@@ -1,1 +1,21 @@
+/*
+Задание 7: обработка имени файла
 
+Шаги: `IndexOf('.')` → `Substring()` → `ToUpper()`
+*/
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string fileName = "level_01_scene.unity";
+
+        int dotIndex = fileName.IndexOf('.');
+        string name = fileName.Substring(0, dotIndex);
+        string upperName = name.ToUpper();
+
+        Console.WriteLine(upperName);
+    }
+}
